@@ -1,13 +1,13 @@
 #!/bin/bash
 # Loads a contextual layer using from a shape file (.shp)
 # NOTE: The following 9 variables need to be modified for each new layer
-export SHAPEFILE="/data/ala/data/layers/raw/PHI_NW.shp"
-export LAYERID="4"
-export LAYER_SHORT_NAME="phi_nw"
-export LAYER_DISPLAY_NAME="Priority Habitats Inventory - North West (England) v2_0 beta"
-export FIELDSSID="URN"
-export FIELDSSNAME="URN"
-export FIELDSSDESCRIPTION="Main_Habitat"
+export SHAPEFILE="/data/ala/data/layers/raw/uk_state_province.shp"
+export LAYERID="2"
+export LAYER_SHORT_NAME="uk_state_province"
+export LAYER_DISPLAY_NAME="UK provinces"
+export FIELDSSID="name"
+export FIELDSSNAME="name"
+export FIELDSSDESCRIPTION="name"
 export NAME_SEARCH="true"
 export INTERSECT="false"
 

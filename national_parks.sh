@@ -1,7 +1,7 @@
 #!/bin/bash
 # Loads a contextual layer using from a shape file (.shp)
 # NOTE: The following 9 variables need to be modified for each new layer
-export SHAPEFILE="/mnt/data/ala/data/layers/raw/magnatpk.shp"
+export SHAPEFILE="/data/ala/data/layers/raw/magnatpk.shp"
 export LAYERID="3"
 export LAYER_SHORT_NAME="magnatpk"
 export LAYER_DISPLAY_NAME="National Parks"
@@ -21,7 +21,7 @@ export GEOSERVERBASEURL="http://localhost:8080/geoserver"
 export GEOSERVERUSERNAME="admin"
 export GEOSERVERPASSWORD="geoserver"
 
-export REPROJECTEDSHAPEFILE="/mnt/data/ala/data/layers/ready/shape/${LAYER_SHORT_NAME}.shp"
+export REPROJECTEDSHAPEFILE="/data/ala/data/layers/ready/shape/${LAYER_SHORT_NAME}.shp"
 
 export JAVA_CLASSPATH="./layer-ingestion-1.0-SNAPSHOT.jar:./lib/*"
 
